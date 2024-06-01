@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    src: url(font/DancingScript-VariableFont_wght.ttf);
+   font-family:"dancing" ;
+}
+
+body{
+    background-image: url(image/141274586-mathematics-background-fractions-on-black-table-close-up-dividing-fractions-math-concept.jpg);
+    background-repeat: no-repeat;
+}
+
+
+.main{
+    text-align: center; 
+    color: white;
+padding-top: 70px;
+font-family:"dancing" ;
+
+}
+
+input{
+   margin-top: 30px;
+   padding: 5px;
+   text-align: center;
+   font-size: 15px;
+}
+.tbl{
+
+    padding-top: 25px;
+text-align: center;
+border-radius: 500px;
+
+}
+
+
+
+.tbl #table{
+   padding-top: 10px;
+font-size: 20px;
+height: 300px;
+overflow: auto;
+color:white;
+
+}
+.con{
+    border-radius: 800px;
+   width: 35%;
+   border: 2px solid white;
+  margin-left: 360px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+.btn{
+    text-align: center;
+  
+  
+}
+.btn button{
+    color: white;
+    background-color: red;
+    border-radius: 25px;
+    padding: 12px;
+    font-size: 15px;
+    font-family: "dancing";
+}
